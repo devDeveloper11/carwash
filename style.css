@@ -92,7 +92,7 @@ a, .btn {
     outline-style: none !important;
     outline-width: initial !important;
 }
-providing_section {
+.providing_section {
     width: 100%;
     float: left;
 }
