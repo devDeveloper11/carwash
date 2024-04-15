@@ -11,17 +11,10 @@ body{
 .services_section {
     width: 100%;
     float: left;
-    background-image: url(../images/about-bg.png);
+    background: url(../images/about-bg.png)no-repeat center center / cover ;
     height: auto;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    padding: 50px 0;
 }
-
-.layout_padding {
-    padding-top: 90px;
-    padding-bottom: 0px;
-}
-
 .services_taital {
     width: 100%;
     font-size: 30px;
@@ -66,10 +59,10 @@ body{
     float: left;
 }
 
-img {
+/* img {
     max-width: 100%;
     height: auto;
-}
+} */
 
 .seemore_bt {
     width: 170px;
@@ -92,19 +85,74 @@ a, .btn {
     outline-style: none !important;
     outline-width: initial !important;
 }
+
 .providing_section {
     width: 100%;
     float: left;
 }
 .layout_padding {
     padding-top: 90px;
-    padding-bottom: 0px;
 }
-.providing_section {
-    width: 100%;
-    float: left;
+
+#h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;   
 }
-.layout_padding {
-    padding-top: 90px;
-    padding-bottom: 0px;
+#span1{
+    color: #0c426e;    
+}
+#span2{
+    width: 100px; 
+    border-radius: 5px;
+    background-color: black;
+    /* color: #0c426e; */
+}
+.clean-quality{
+    background: url(https://carwashingcenter.netlify.app/images/img-4.png) center/cover;
+    height: 320px;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    color: #ffffff;
+}
+#btn1{
+    margin: 50px 0px 0px;
+    padding: 12px 25px;
+    background-color: #ffffff;
+    color: #0b0b0b;
+    margin: -20px;
+    transition: 0.4s linear;
+    border-radius: 5px;
+    border: none;
+}
+#btn1:hover{
+   color: #ffffff;
+   background-color: #0b0b0b;
+   transform: scale(1.03);
+}
+.containerr{
+    display: flex;
+    justify-content: space-around;
+    font-size: 19px;
+    margin-top: 30px;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.choose_box{
+    width: 335px;
+    height: auto;
+    padding: 40px 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.number_1{
+    display: flex;
+    gap: 10px;
+}
+.choose_box:hover{
+    background-color: #0c426e;
+    color: #ffffff;
 }
