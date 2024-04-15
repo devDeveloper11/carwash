@@ -156,3 +156,122 @@ a, .btn {
     background-color: #0c426e;
     color: #ffffff;
 }
+    nav{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .main{
+        width: 100%;
+        height: 85vh;
+        background-color: #FAFAFA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+    }
+    .navbar:nth-child(1){
+        margin-left: 20px;
+    }
+    .navbar:nth-child(3){
+        margin-right: 20px;
+        cursor: pointer;
+        z-index: +4;
+    }
+    .navbar:nth-child(2){
+        width: 60%;
+        font-size: 25px;
+        justify-content: space-evenly;
+    }
+    .navbar img{
+        margin-right: 0;
+    }
+    .nav-texts::before{
+        margin-right: 10px;
+    }
+    .nav-texts:nth-child(1):before{
+        content: url(call-icon.png);
+    }
+    .nav-texts:nth-child(2):before{
+        content: url(mail-icon.png);
+    }
+    .nav-texts:nth-child(3):before{
+        content: url(map-icon.png);
+    }
+    .carwash-center{
+        width: 75%;
+        height: 65%;
+        display: flex;
+        align-items: flex-start;
+    }
+    .center-text{
+        font-size: 80px;
+        font-family: poppins, sans-serif;
+        margin: 0;
+        font-weight: bolder;
+    }
+    .left{
+        width: 50%;
+        height: 100%;
+        display: flex; 
+        flex-direction: column;
+    }
+    .center-btns{
+        display: flex;
+    }
+    .center-btn{
+        padding: 12px 38px;
+        background-color: #0C426E;
+        color: white;
+        font-size: 20px;
+        border: 0;
+        cursor: pointer;
+        transition: all 0.2s linear;
+    }
+    .center-btn:hover{
+        filter: opacity(0.6);
+    }
+    .center-btn:nth-child(2){
+        margin-left: 15px;
+        background-color: black;
+    }
+    .right{
+        width: 50%;
+        height: 100%;
+        background-image: url(banner-img.png);
+        background-size: cover;
+    }
+    .carousel-btns{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 90px;
+    }
+    .carousel-btn{
+        background-color: black;
+        cursor: pointer;
+        color: white;
+        font-size: 52px;
+        margin: 15px;
+        transition: 0.2s linear;
+    }
+    .carousel-btn:hover{
+        filter: opacity(0.6);
+    }
+    .font{
+        width: 100%;
+        height: 100vh;
+        background-color: #0c426ebb;
+        position: absolute;
+        transform: translateX(-100%);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: 0.3s ease-in;
+    }
